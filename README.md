@@ -1,30 +1,30 @@
 ## Overview ##
 
-Lua for Windows is a 'batteries included environment' for the Lua scripting language on Windows.
+Windows的Lua是Windows上的Lua脚本语言的“一连串包含环境”。
 
-Lua for Windows (LfW) combines Lua binaries, Lua libraries with a Lua-capable editor in a single install package for the Microsoft Windows operating system. LfW contains everything you need to write, run and debug Lua scripts on Windows. A wide variety of libraries and examples are included that are ready to use with Microsoft Windows. LfW runs on Windows 2000 and newer versions of Windows. Lua and its associated libraries are also available for other operating systems, so most scripts will be automatically cross-platform.
+Lua for Windows (LfW)在微软Windows操作系统的单个安装包中结合了Lua二进制文件、Lua库和支持Lua的编辑器。LfW包含了在Windows上编写、运行和调试Lua脚本所需的所有内容。它包含了各种各样的库和示例，可以在Microsoft Windows中使用。LfW运行在Windows 2000和更新版本的Windows上。Lua及其相关库也可用于其他操作系统，因此大多数脚本将自动实现跨平台。
 
 
 ## Download ##
 
-Download Lua For Windows installer from [GitHub](http://github.com/rjpcomputing/luaforwindows/releases)
+下载Lua For Windows安装程序[GitHub](http://github.com/rjpcomputing/luaforwindows/releases)
 
 ## Install Notes ##
 
-Lua for Windows installs Lua language, SciTE based Lua IDE and Lua modules to the directory of you choice at install time. Lua for Windows and it's modules all depend on the MSVC++ 2005 runtime library. Lua for Windows install will automatically download this runtime and install it for you if you don't have runtime installed on your computer. The runtime is contained in the file [vcredist\_x86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe), if you don't want the runtime to download during installation time (for offline instalation), just place the [vcredist\_86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe) in same directory as Lua for Windows install exe.
+Lua for Windows在安装时将Lua语言、基于SciTE的Lua IDE和Lua模块安装到您选择的目录中。Windows的Lua和它的模块都依赖于msvc++ 2005运行时库。如果你的电脑上没有安装运行时，Lua for Windows安装将自动下载这个运行时并为你安装它。运行时包含在文件[vcredist\_86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe)中，如果你不想在安装期间下载运行时(脱机安装)，只需将[vcredist\ 86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe)放在与Lua for Windows安装exe相同的目录中。
 
 
 ## LfW Components ##
 
-Installer
-Lua Interpreter,
-Lua Reference Manual,
-Quick Lua Tour Sample,
-Examples directory,
-Libraries with documentation.
-Lua Compiler (luac)
-Text Editors (SciTE and I think maybe wxLua editors too)
-C header files/libraries/etc. for building C module
+安装程序
+Lua解释器,
+Lua参考手册,
+快速Lua Tour样本，
+示例目录中,
+库和文档。
+Lua编译器(luac)
+文本编辑器(SciTE和wxLua编辑器)
+C头文件/ etc /库。用于构建C模块
 
 
 ## Libraries included ##
